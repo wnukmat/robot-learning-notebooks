@@ -1,4 +1,4 @@
-# GUIDE: guide-deployment
+# GUIDE: guide-deployment#quantmath :: Quantises a small policy from 16 bits down to 2, measures the change in its outputs and in task success, and shows one outlier weight making every other weight coarser.
 # %% [markdown]
 # # Quantising a policy until it breaks
 #

@@ -1,4 +1,4 @@
-# GUIDE: guide-attention
+# GUIDE: guide-attention :: One notebook follows this note from start to finish: the formula in four lines, the square-root scaling, masks, heads, cost, linear attention as a recurrence, and the delta rule.
 # %% [markdown]
 # # Attention from scratch
 #

@@ -8,7 +8,7 @@ for src in sorted((ROOT / "src").glob("*.py")):
     t = src.read_text(); title = re.search(r"^# # (.+)$", t, flags=re.M).group(1); guide = re.search(r"^# GUIDE: (\S+)", t, flags=re.M).group(1)
     body = t.split("{{BADGES}}", 1)[1]; para = re.search(r"#\n((?:# .+\n)+)", body).group(1); summary = " ".join(l[2:] for l in para.splitlines()); summary = re.split(r"(?<=[.])\s", summary)[0]
     folder, _ = GROUPS[src.stem[0]]; rel = f"notebooks/{folder}/{src.stem[2:]}.ipynb"
-    rows.setdefault(src.stem[0], []).append(f"| [{title}]({rel}) | {summary} | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{REPO}/blob/main/{rel}) | [note]({SITE}{guide}.html) |")
+    rows.setdefault(src.stem[0], []).append(f"| [{title}]({rel}) | {summary} | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{REPO}/blob/main/{rel}) | [note]({SITE}{guide.replace('#', '.html#') if '#' in guide else guide + '.html'}) |")
 n = sum(len(v) for v in rows.values())
 out = f"""# Robot learning notebooks
 

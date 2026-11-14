@@ -17,9 +17,10 @@ if importlib.util.find_spec("guide_utils") is None:
 
 def build(src):
     group = GROUPS[src.stem[0]]; out = ROOT / "notebooks" / group / (src.stem[2:] + ".ipynb"); out.parent.mkdir(parents=True, exist_ok=True)
-    text = src.read_text(); guide = re.search(r"^# GUIDE: (\S+)", text, flags=re.M).group(1); text = re.sub(r"^# GUIDE: \S+\n", "", text, flags=re.M)
+    text = src.read_text(); guide = re.search(r"^# GUIDE: (\S+)", text, flags=re.M).group(1); text = re.sub(r"^# GUIDE: .*\n", "", text, flags=re.M)
+    gpage, _, ganc = guide.partition("#")                            # the first GUIDE line names the page and the section the notebook belongs to
     rel = out.relative_to(ROOT).as_posix()
-    badges = f"[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{REPO}/blob/main/{rel}) &nbsp; Guide note: [{guide}]({SITE}{guide}.html)"
+    badges = f"[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{REPO}/blob/main/{rel}) &nbsp; Guide note: [{gpage}]({SITE}{gpage}.html{'#' + ganc if ganc else ''})"
     text = text.replace("{{BADGES}}", badges).replace("# %% SETUP\n", SETUP)
     tmp = ROOT / ".build" / (src.stem + ".py"); tmp.parent.mkdir(exist_ok=True); tmp.write_text(text)
     t0 = time.time(); subprocess.run([str(ROOT / ".venv/bin/jupytext"), "--to", "ipynb", "--output", str(out), str(tmp)], check=True, capture_output=True)

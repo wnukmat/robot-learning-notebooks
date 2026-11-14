@@ -1,4 +1,4 @@
-# GUIDE: guide-foundations
+# GUIDE: guide-foundations#depth :: Measures the gradient that reaches each layer of a deep network, with and without residual connections and normalisation, and what that does to training.
 # %% [markdown]
 # # Why deep networks train at all
 #

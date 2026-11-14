@@ -1,4 +1,4 @@
-# GUIDE: guide-robotics-fundamentals
+# GUIDE: guide-robotics-fundamentals#controllers :: Simulates one loaded joint for this section and the one before it: PID gains, gravity compensation, stiffness in contact, and the gap between the commanded position and the one reached.
 # %% [markdown]
 # # Controllers: from a target to motor torque
 #

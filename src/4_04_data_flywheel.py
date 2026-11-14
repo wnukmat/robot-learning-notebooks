@@ -1,4 +1,5 @@
-# GUIDE: guide-data-flywheel
+# GUIDE: guide-data-flywheel#corrections :: Finds where a cloned policy goes when it fails, then spends the same labelling budget two ways, on new demonstrations and on corrections, and shows why each round finds fewer failures to learn from.
+# GUIDE: guide-data-flywheel#train :: The last part of the flywheel notebook updates a policy with data for a new region, alone and mixed with the old data, and checks the cases that already worked.
 # %% [markdown]
 # # The data flywheel
 #

@@ -1,4 +1,4 @@
-# GUIDE: guide-foundations
+# GUIDE: guide-foundations#maths :: The loop above written in plain numpy, with the three checks worth running before any long training: a check of the hand-written gradient against automatic differentiation, the loss at the first step, and overfitting a single batch.
 # %% [markdown]
 # # The training loop, from scratch
 #

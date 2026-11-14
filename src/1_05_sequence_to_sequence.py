@@ -1,4 +1,4 @@
-# GUIDE: guide-sequence-to-sequence
+# GUIDE: guide-sequence-to-sequence#run :: Runs the three models compared here, the bottleneck, the attention model and a small transformer, from saved weights or trained from scratch, and reproduces accuracy against input length and the attention maps.
 # %% [markdown]
 # # Sequence to sequence: the bottleneck and how attention removes it
 #

@@ -1,4 +1,4 @@
-# GUIDE: guide-robot-policies
+# GUIDE: guide-robot-policies#tokenise :: Turns real action chunks into tokens two ways, by binning and by a frequency transform, and counts the tokens and the reconstruction error of each.
 # %% [markdown]
 # # Turning actions into tokens
 #

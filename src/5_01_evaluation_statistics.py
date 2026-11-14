@@ -1,4 +1,5 @@
-# GUIDE: guide-evaluation
+# GUIDE: guide-evaluation#wilson :: Computes both intervals and checks by simulation how often a 95% interval really contains the true success rate at small trial counts.
+# GUIDE: guide-evaluation#tests :: The second half of the evaluation notebook covers this section and the one before it: how many trials a comparison needs, what pairing trials saves, and what stopping early on a good result does to the error rate.
 # %% [markdown]
 # # Evaluation statistics for small numbers of trials
 #

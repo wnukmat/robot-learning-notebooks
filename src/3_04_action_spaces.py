@@ -1,4 +1,4 @@
-# GUIDE: guide-robot-learning-basics
+# GUIDE: guide-robot-learning-basics#normalise :: Covers this section and the one before it on real robot data: one motion written as absolute and relative actions, what a relative action of 1.0 means, why unnormalised actions fail, and what a delta is measured from.
 # %% [markdown]
 # # Action spaces and normalisation, on real robot data
 #

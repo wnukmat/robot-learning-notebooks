@@ -1,4 +1,4 @@
-# GUIDE: guide-generative-modeling
+# GUIDE: guide-generative-modeling#toyrun :: One small network trained with each objective on a two-dimensional problem, from saved weights or trained from scratch. It compares sample quality against the number of steps and draws the paths each one follows.
 # %% [markdown]
 # # Flow matching against diffusion, on a problem small enough to see
 #

@@ -1,4 +1,4 @@
-# GUIDE: guide-robot-data
+# GUIDE: guide-robot-data#real :: Opens the dataset described here: both cameras, the episode lengths, one episode from start to finish, and the alignment error between streams that raises no exception.
 # %% [markdown]
 # # Inside a robot dataset
 #

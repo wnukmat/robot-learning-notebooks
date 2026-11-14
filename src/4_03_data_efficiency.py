@@ -1,4 +1,5 @@
-# GUIDE: guide-data-efficiency
+# GUIDE: guide-data-efficiency#law :: Covers this section and the one before it: trains on growing amounts of data, fits the power law, and reads off what doubling the data buys.
+# GUIDE: guide-data-efficiency#transfer :: The last part of the data efficiency notebook repeats the learning curve in a new layout, once from scratch and once from a policy pretrained on four other layouts.
 # %% [markdown]
 # # Data efficiency: learning curves, a power law, and what pretraining buys
 #

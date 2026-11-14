@@ -1,4 +1,4 @@
-# GUIDE: guide-things-i-know
+# GUIDE: guide-things-i-know#noise :: Trains one configuration with thirty random seeds, shows how often a single pair of runs points the wrong way, and how many seeds a comparison needs.
 # %% [markdown]
 # # How much of a result is noise
 #

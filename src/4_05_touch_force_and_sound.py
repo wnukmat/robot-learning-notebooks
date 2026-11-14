@@ -1,4 +1,5 @@
-# GUIDE: guide-senses
+# GUIDE: guide-senses#examples :: Loads one real press recorded by three sensors, a camera inside the fingertip, a pressure array and a wrist force sensor, and shows why a signal this fast has to reach a model as a window.
+# GUIDE: guide-senses#spectro :: The middle of the touch and sound notebook builds the spectrogram of a real recording step by step, trades the window length against time and frequency detail, and cuts the result into tokens.
 # %% [markdown]
 # # Touch, force and sound
 #

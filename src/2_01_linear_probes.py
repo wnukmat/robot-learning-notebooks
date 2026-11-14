@@ -1,4 +1,4 @@
-# GUIDE: guide-representation-learning
+# GUIDE: guide-representation-learning#probing :: Fits linear probes on frozen features of real robot frames and asks three questions of them: which task the frame is from, how far through the episode it is, and whether the gripper is closed. A raw-pixel baseline sits beside every answer.
 # %% [markdown]
 # # Linear probes: what do frozen features know?
 #

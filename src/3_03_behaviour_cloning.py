@@ -1,4 +1,5 @@
-# GUIDE: guide-robot-learning-basics
+# GUIDE: guide-robot-learning-basics#bcmath :: Trains a cloned policy on a small reaching task, shows the drift from the demonstrations growing along a rollout, and measures success against the amount of data, with and without recovery data and relative inputs.
+# GUIDE: guide-robot-learning-basics#chunkmath :: The last part of the behaviour cloning notebook repeats the chunk-length comparison on the same reaching task.
 # %% [markdown]
 # # Behaviour cloning and compounding error
 #

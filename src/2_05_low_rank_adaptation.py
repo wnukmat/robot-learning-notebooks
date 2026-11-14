@@ -1,4 +1,4 @@
-# GUIDE: guide-foundation-models
+# GUIDE: guide-foundation-models#lora :: Pretrains a small network, fine-tunes all of it, measures how low-rank the change really was, then gets the same result with an adapter and checks what the adapter leaves intact.
 # %% [markdown]
 # # Low-rank adaptation
 #

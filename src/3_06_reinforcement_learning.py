@@ -1,4 +1,5 @@
-# GUIDE: guide-reinforcement-learning
+# GUIDE: guide-reinforcement-learning#maths :: Solves a small grid with value iteration, reaches the same answer by Q-learning, and counts the trials it took against imitation on the same task.
+# GUIDE: guide-reinforcement-learning#shaping :: The last part of the reinforcement learning notebook runs this comparison, with and without a shaped reward.
 # %% [markdown]
 # # Reinforcement learning on a grid
 #

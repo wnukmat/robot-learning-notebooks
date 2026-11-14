@@ -1,4 +1,4 @@
-# GUIDE: guide-robotics-fundamentals
+# GUIDE: guide-robotics-fundamentals#rotations :: Works through the last four sections in code: chaining transforms, forward and inverse kinematics of a two-link arm, the Jacobian near a singularity, and why a rotation should not be written as a single angle.
 # %% [markdown]
 # # Frames, kinematics and rotations
 #

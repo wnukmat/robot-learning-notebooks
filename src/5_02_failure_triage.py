@@ -1,4 +1,5 @@
-# GUIDE: guide-failure-triage
+# GUIDE: guide-failure-triage#controller :: The first check on real data: compares the commanded motion with the motion that happened.
+# GUIDE: guide-failure-triage#oodcheck :: The rest of the triage notebook runs checks 3 and 4 on real data: whether a situation is in the training set, and whether the demonstrations agree there.
 # %% [markdown]
 # # Failure triage on real data
 #

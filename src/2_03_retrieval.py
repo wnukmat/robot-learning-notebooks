@@ -1,4 +1,4 @@
-# GUIDE: guide-retrieval
+# GUIDE: guide-retrieval :: One notebook follows this note on real robot frames: nearest neighbours, ranking metrics, searching with text, approximate search, and compressing the vectors.
 # %% [markdown]
 # # Retrieval on robot data
 #

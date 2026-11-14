@@ -1,4 +1,4 @@
-# GUIDE: guide-foundations
+# GUIDE: guide-foundations#lr :: Covers this section and the one before it: a learning-rate sweep, warm-up and decay, three optimisers on the same problem, and Adam written out by hand.
 # %% [markdown]
 # # Learning rate and optimisers
 #

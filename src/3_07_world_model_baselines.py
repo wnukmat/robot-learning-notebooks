@@ -1,4 +1,4 @@
-# GUIDE: guide-world-models
+# GUIDE: guide-world-models#baseline :: Measures how much of a real robot video changes between frames, scores the predictor that predicts no change, and rescores it on only the pixels that move.
 # %% [markdown]
 # # The baseline every world model must beat
 #

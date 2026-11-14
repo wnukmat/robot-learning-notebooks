@@ -1,4 +1,4 @@
-# GUIDE: guide-data-quality
+# GUIDE: guide-data-quality#consistency :: Covers this section and the one before it: computes four scores on every episode of a real dataset, flags the unusual ones, looks at what was flagged, and measures how far demonstrations of the same task agree.
 # %% [markdown]
 # # Scoring data quality
 #

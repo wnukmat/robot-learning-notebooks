@@ -1,4 +1,4 @@
-# GUIDE: guide-contrastive-learning
+# GUIDE: guide-contrastive-learning#run :: Trains the triplet loss, triplet with hard mining, and InfoNCE on handwritten digits, then shows what each does to the embedding space and how temperature changes it.
 # %% [markdown]
 # # Contrastive losses: triplet, hard mining, and InfoNCE
 #

@@ -1,4 +1,4 @@
-# GUIDE: guide-understanding-and-safety
+# GUIDE: guide-understanding-and-safety#calib :: Measures calibration on a small classifier, adjusts it with temperature scaling, shows the adjustment failing on inputs unlike the training data, and adds a simple unfamiliarity check.
 # %% [markdown]
 # # Calibration, and knowing when not to trust a model
 #
